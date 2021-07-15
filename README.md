@@ -13,7 +13,7 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
 
 ## Results
 
-<table>
+<table border="1">
     <tr>
         <th> Method </th> <th colspan = "2" style="text-align:center"> All Sites (2021) </th> <th colspan = "3" style="text-align:center"> COR Site </th> <th colspan = "3" style="text-align:center"> SSW Site </th> <th colspan = "3" style="text-align:center"> COR & SSW Sites </th> </tr> 
     <tr>
