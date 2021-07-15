@@ -12,7 +12,9 @@ We based our solution on diverse and robust models trained on a complete audio d
 We bagged 13 CNN-based models, which were different in terms of augmentation strategy and architecture. We used a SVC model for probability calibration, and a haversine distance based post processing for Geofencing and for creating bird to site mapping to reduce False Positives and False Negatives.
 
 ## Results
+
 | Method | All Sites (2021) || COR Site ||| SSW Site ||| COR & SSW Sites |||
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 || Public LB | Private LB | No call | Call | CV@0.54 | No call | Call | CV@0.54 | No call | Call | CV@0.54 |
 | SNE & SSW site models | - | - | - | - | - | 0.9094 | 0.5552 | 0.7465 | - | - | - |
 | All site models | 0.7155 | 0.6203 | 0.9300 | 0.5208 | 0.7418 | 0.9431 | 0.3876 | 0.6875 | 0.9261 | 0.4623 | 0.7127 |
