@@ -12,6 +12,15 @@ We based our solution on diverse and robust models trained on a complete audio d
 We bagged 13 CNN-based models, which were different in terms of augmentation strategy and architecture. We used a SVC model for probability calibration, and a haversine distance based post processing for Geofencing and for creating bird to site mapping to reduce False Positives and False Negatives.
 
 ## Results
-
+| Method | All Sites (2021) || COR Site ||| SSW Site ||| COR & SSW Sites |||
+|| Public LB | Private LB | No call | Call | CV@0.54 | No call | Call | CV@0.54 | No call | Call | CV@0.54 |
+| SNE & SSW site models | - | - | - | - | - | 0.9094 | 0.5552 | 0.7465 | - | - | - |
+| All site models | 0.7155 | 0.6203 | 0.9300 | 0.5208 | 0.7418 | 0.9431 | 0.3876 | 0.6875 | 0.9261 | 0.4623 | 0.7127 |
+| Ensemble | 0.7499 | 0.6450 | 0.9300 | 0.5208 | 0.7418 | 0.8923 | 0.5861 | 0.7514 | 0.9130 | 0.5591 | 0.7502 |
+| Ensemble + PC | 0.7744 | 0.6609 | 0.9187 | 0.6415 | 0.7912 | 0.8869 | 0.6106 | 0.7598 | 0.9044 | 0.6234 | 0.7751 |
+| Ensemble + PC + Site-info | 0.7711 | 0.6722 | 0.9106 | 0.6756 | 0.8025 | 0.8725 | 0.6327 | 0.7622 | 0.8934 | 0.6505 | 0.7816 |
+| Ensemble + PC + FNR | 0.7774 | 0.6630 | 0.9086 | 0.6758 | 0.8015 | 0.8720 | 0.6354 | 0.7632 | 0.8921 | 0.6521 | 0.7817 |
+| Ensemble + PC + FNR + FPR | 0.7754  | 0.6780 | 0.9285 | 0.6583 | 0.8029 | 0.8836 | 0.6343 | 0.7656 | 0.9082 | 0.6443 | 0.7836 |
+| Selected Submission | 0.7801 | 0.6738 | 0.9106 | 0.6756 | 0.8025 | 0.8754 | 0.6363 | 0.7654 | 0.8947 | 0.6526 | 0.7834 |
 
 ## Citation
