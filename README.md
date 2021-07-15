@@ -15,7 +15,7 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
 
 | Method | All Sites (2021) || COR Site ||| SSW Site ||| COR & SSW Sites |||
 || Public LB | Private LB | No call | Call | CV@0.54 | No call | Call | CV@0.54 | No call | Call | CV@0.54 |
-| ------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :------: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SNE & SSW site models | - | - | - | - | - | 0.9094 | 0.5552 | 0.7465 | - | - | - |
 | All site models | 0.7155 | 0.6203 | 0.9300 | 0.5208 | 0.7418 | 0.9431 | 0.3876 | 0.6875 | 0.9261 | 0.4623 | 0.7127 |
 | Ensemble | 0.7499 | 0.6450 | 0.9300 | 0.5208 | 0.7418 | 0.8923 | 0.5861 | 0.7514 | 0.9130 | 0.5591 | 0.7502 |
