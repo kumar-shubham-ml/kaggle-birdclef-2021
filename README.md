@@ -15,7 +15,7 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
 
 <table>
     <tr>
-        <td> Method </td> <td rowspan = "2"> All Sites (2021) </td> <td rowspan = "3"> COR Site </td> <td rowspan = "3"> SSW Site </td> <td rowspan = "3"> COR & SSW Sites </td> </tr> <tr>
+        <td> Method </td> <td colspan = "2"> All Sites (2021) </td> <td colspan = "3"> COR Site </td> <td colspan = "3"> SSW Site </td> <td colspan = "3"> COR & SSW Sites </td> </tr> <tr>
 <td> </td> <td> Public LB </td> <td> Private LB </td> <td> No call </td> <td> Call </td> <td> CV@0.54 </td> <td> No call </td> <td> Call </td> <td> CV@0.54 </td> <td> No call </td> <td> Call </td> <td> CV@0.54 </td> </tr> <tr>
 <td> SNE & SSW site models </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> 0.9094 </td> <td> 0.5552 </td> <td> 0.7465 </td> <td> - </td> <td> - </td> <td> - </td> </tr> <tr>
 <td> All site models </td> <td> 0.7155 </td> <td> 0.6203 </td> <td> 0.9300 </td> <td> 0.5208 </td> <td> 0.7418 </td> <td> 0.9431 </td> <td> 0.3876 </td> <td> 0.6875 </td> <td> 0.9261 </td> <td> 0.4623 </td> <td> 0.7127 </td> </tr> <tr>
