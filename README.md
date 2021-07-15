@@ -26,4 +26,17 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
 | Ensemble + PC + FNR + FPR | 0.7754  | 0.6780 | 0.9285 | 0.6583 | 0.8029 | 0.8836 | 0.6343 | 0.7656 | 0.9082 | 0.6443 | 0.7836 |
 | Selected Submission | 0.7801 | 0.6738 | 0.9106 | 0.6756 | 0.8025 | 0.8754 | 0.6363 | 0.7654 | 0.8947 | 0.6526 | 0.7834 |
 
+<table>
+    <tr>
+                 <td> First column </ td> 
+                 <td> Second column </ td> 
+   </tr>
+    <tr>
+                 <td colspan = "2"> This is the merged line </ td>    
+    </tr>
+    <tr>
+                 <td colspan = "2"> This is also a merged line </ td>    
+    </tr>
+</table>
+
 ## Citation
