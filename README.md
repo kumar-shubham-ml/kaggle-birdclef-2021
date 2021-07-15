@@ -19,7 +19,7 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
     <tr>
 <td> </td> <td style="text-align:center"> Public LB </td> <td style="text-align:center"> Private LB </td> <td style="text-align:center"> No call </td> <td style="text-align:center"> Call </td> <td style="text-align:center"> CV@0.54 </td> <td style="text-align:center"> No call </td> <td style="text-align:center"> Call </td> <td style="text-align:center"> CV@0.54 </td> <td style="text-align:center"> No call </td> <td style="text-align:center"> Call </td> <td style="text-align:center"> CV@0.54 </td> </tr> 
     <tr>
-<td> SNE & SSW site models </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> 0.9094 </td> <td> 0.5552 </td> <td> 0.7465 </td> <td> - </td> <td> - </td> <td> - </td> </tr> 
+<td style="width:100px"> SNE & SSW site models </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> 0.9094 </td> <td> 0.5552 </td> <td> 0.7465 </td> <td> - </td> <td> - </td> <td> - </td> </tr> 
     <tr>
 <td> All site models </td> <td> 0.7155 </td> <td> 0.6203 </td> <td> 0.9300 </td> <td> 0.5208 </td> <td> 0.7418 </td> <td> 0.9431 </td> <td> 0.3876 </td> <td> 0.6875 </td> <td> 0.9261 </td> <td> 0.4623 </td> <td> 0.7127 </td> </tr> 
     <tr>
