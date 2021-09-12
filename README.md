@@ -38,3 +38,12 @@ We bagged 13 CNN-based models, which were different in terms of augmentation str
 
 
 ## Citation
+
+```
+@inproceedings{Conde2021WeaklySupervisedCA,
+  title={Weakly-Supervised Classification and Detection of Bird Sounds in the Wild. A BirdCLEF 2021 Solution},
+  author={Marcos V. Conde and K. Shubham and Prateek Agnihotri and Nitin D. Movva and S. Bessenyei},
+  booktitle={CLEF},
+  year={2021}
+}
+```
